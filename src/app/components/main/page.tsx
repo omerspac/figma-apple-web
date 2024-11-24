@@ -131,8 +131,6 @@ let discount_item = [
 
 export default function Home() {
   useEffect(() => {
-    // ... previous code remains the same
-
     const btn1 = document.getElementById("btn1");
     const btn2 = document.getElementById("btn2");
     const btn3 = document.getElementById("btn3");
@@ -142,7 +140,6 @@ export default function Home() {
     if (btn1 && btn2 && btn3 && btn4 && box1) {
       btn1.addEventListener("click", () => {
         box1.style.opacity = "1";
-        // ... rest of the event listener code
       });
     }
   });
