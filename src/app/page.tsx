@@ -1,7 +1,13 @@
-import Image from "next/image";
+import Header from "../app/components/header/page"
+import Main from "./components/main/page"
+import Footer from "./components/footer/page";
 
 export default function Home() {
   return (
-    <p>hello</p>
+    <div>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </div>
   );
 }
