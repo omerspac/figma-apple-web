@@ -1,32 +1,31 @@
 "use client";
-import Header from "../header/page";
-import Footer from "../footer/page";
+
 import css from "./page.module.css";
 import Image from "next/image";
-import phone from "../images/Iphone Image.png"
-import playstation from "../images/PlayStation.png"
-import headphone from "../images/hero__gnfk5g59t0qe_xlarge_2x 1.png"
-import airbuds from "../images/image 36.png"
-import macbook from "../images/MacBook Pro 14.png"
-import lessthan from "../images/less-than-symbol.png"
-import greatthan from "../images/greater-than-symbol.png"
-import heart from"../images/heart.png"
-import iphone from "../images/Iphone 14 pro 1.png"
-import camera from "../images/Iphone 14 pro 1 (1).png"
-import watch from "../images/Iphone 14 pro 1 (2).png"
-import headphoneg from "../images/Iphone 14 pro 1 (3).png"
-import simplewatch from "../images/Iphone 14 pro 1 (4).png"
-import samphone from "../images/Iphone 14 pro 1 (5).png"
-import airbudss from "../images/Iphone 14 pro 1 (6).png"
-import tablet from "../images/Iphone 14 pro 1 (7).png"
-import group1 from "../images/Group 1.png"
-import group2 from "../images/image 64.png"
-import group3 from "../images/image 41.png"
-import group4 from "../images/Macbook 1.png"
-import discount_item1 from "../images/Iphone 14 pro 1 (8).png"
-import discount_item2 from "../images/Iphone 14 pro 1 (9).png"
-import discount_item3 from "../images/Iphone 14 pro 1 (10).png"
-import discount_item4 from "../images/Iphone 14 pro 1 (11).png"
+import phone from "../../components/images/Iphone Image.png"
+import playstation from "../../components/images/PlayStation.png"
+import headphone from "../../components/images/hero__gnfk5g59t0qe_xlarge_2x 1.png"
+import airbuds from "../../components/images/image 36.png"
+import macbook from "../../components/images/MacBook Pro 14.png"
+import lessthan from "../../components/images/less-than-symbol.png"
+import greatthan from "../../components/images/greater-than-symbol.png"
+import heart from"../../components/images/heart.png"
+import iphone from "../../components/images/Iphone 14 pro 1.png"
+import camera from "../../components/images/Iphone 14 pro 1 (1).png"
+import watch from "../../components/images/Iphone 14 pro 1 (2).png"
+import headphone2 from "../../components/images/Iphone 14 pro 1 (3).png"
+import simplewatch from "../../components/images/Iphone 14 pro 1 (4).png"
+import samphone from "../../components/images/Iphone 14 pro 1 (5).png"
+import airbuds2 from "../../components/images/Iphone 14 pro 1 (6).png"
+import tablet from "../../components/images/Iphone 14 pro 1 (7).png"
+import group1 from "../../components/images/Group 1.png"
+import group2 from "../../components/images/image 64.png"
+import group3 from "../../components/images/image 41.png"
+import group4 from "../../components/images/Macbook 1.png"
+import discount_item1 from "../../components/images/Iphone 14 pro 1 (8).png"
+import discount_item2 from "../../components/images/Iphone 14 pro 1 (9).png"
+import discount_item3 from "../../components/images/Iphone 14 pro 1 (10).png"
+import discount_item4 from "../../components/images/Iphone 14 pro 1 (11).png"
 import Link from "next/link";
 import { useEffect } from "react";
 
@@ -80,7 +79,7 @@ let products = [
     price: "399",
   },
   {
-    image: headphoneg,
+    image: headphone2,
     productName: "AirPods Max Silver Starlight Aluminium ",
     price: "549",
   },
@@ -95,7 +94,7 @@ let products = [
     price: "1799",
   },
   {
-    image: airbudss,
+    image: airbuds2,
     productName: "Galaxy Air Buds FE Graphite",
     price: "99.99",
   },
