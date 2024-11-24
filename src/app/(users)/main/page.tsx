@@ -1,7 +1,7 @@
 "use client";
 
-import css from "./page.module.css";
-import Image from "next/image";
+import Image from "next/image"
+import css from "./page.module.css"
 import phone from "../../components/images/Iphone Image.png"
 import playstation from "../../components/images/PlayStation.png"
 import headphone from "../../components/images/hero__gnfk5g59t0qe_xlarge_2x 1.png"
@@ -26,7 +26,7 @@ import discount_item1 from "../../components/images/Iphone 14 pro 1 (8).png"
 import discount_item2 from "../../components/images/Iphone 14 pro 1 (9).png"
 import discount_item3 from "../../components/images/Iphone 14 pro 1 (10).png"
 import discount_item4 from "../../components/images/Iphone 14 pro 1 (11).png"
-import Link from "next/link";
+import Link from "next/link"
 import { useEffect } from "react";
 
 let category = [

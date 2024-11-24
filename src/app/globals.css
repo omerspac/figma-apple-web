@@ -12,6 +12,8 @@
     font-size: 10px;
   }
   
+  /* responsive */
+  
   @media (width < 1420px) {
     html{
         font-size: 10px;
