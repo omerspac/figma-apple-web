@@ -4,25 +4,20 @@
 
 .hero_section{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 9rem;
+    justify-content: center;
     font-size: 10px;
-    /* height: 90vh; */
-    background-image: linear-gradient(to right, #211c24, #211c24, #211c24, #211c24, #211c24);
+    gap: 9rem;
     color: #fff;
-    overflow: hidden;
+    background-image: linear-gradient(to right, #211c24, #211c24, #211c24, #211c24, #211c24);
     padding-top: 2rem;
+    overflow: hidden;
 }
 
 .left_side_01{
-    display: flex;
-    flex-direction: column;
     font-family: "Inter", sans-serif;
-    & h3{
-        font-size: 2.5em;
-        opacity: 0.6;
-    }
+    flex-direction: column;
+    display: flex;
     & h1{
         font-size: 9em;
         font-weight: 600;
@@ -34,32 +29,39 @@
             letter-spacing: 0.1em;
         }
     }
-    & p{
-        font-size: 2em;
-        font-weight: 300;
-        letter-spacing: 0.05em;
-        word-spacing: 0.05em;
-        color: #909090;
-    }
-    & button{
-        margin-top: 1em;
+
+    & h3{
         font-size: 2.5em;
-        width: 10em;
+        opacity: 0.6;
+    }
+
+    & button{
+        font-size: 2.5em;
         border: 0.1em solid #fff;
-        text-transform: capitalize;
-        padding: 0.6em;
         border-radius: 0.3em;
+        margin-top: 1em;
+        padding: 0.6em;
+        width: 10em;
+        text-transform: capitalize;
+    }
+
+    & p{
+        font-weight: 300;
+        font-size: 2em;
+        color: #909090;
+        word-spacing: 0.05em;
+        letter-spacing: 0.05em;
     }
 }
 
 .right_side_01{
-    display: flex;
     justify-content: center;
+    display: flex;
     align-items: center;
     & img{
         width: auto;
-        height: 65em;
         object-fit: cover;
+        height: 65em;
     }
 }
 
@@ -146,25 +148,25 @@
 
 .section_02{
     display: flex;
+    overflow: hidden;
     font-size: 10px;
     font-family: "Inter", sans-serif;
-    overflow: hidden;
 }
 
 .left_side_02{
     display: flex;
-    flex-direction: column;
     padding-top: 2rem;
     width: 50%;
+    flex-direction: column;
 
 }
 
 .item1{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding-right: 8em;
+    justify-content: space-between;
     & img{
         width: 35em;
         height: 30em;
@@ -185,19 +187,19 @@
 
 .item2{
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #fff;
+    justify-content: center;
     width: 100%;
+    background-color: #fff;
 }
 
 .box1{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 5em;
-    height: 100%;
+    justify-content: space-between;
     background-color: #EDEDED;
+    align-items: center;
+    height: 100%;
     padding-right: 5em;
     width: 50%;
     & img{
@@ -222,14 +224,14 @@
 
 .box2{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 5em;
-    height: 100%;
     background-color: #353535;
+    justify-content: space-between;
     color: #fff;
-    padding-right: 5em;
+    height: 100%;
     width: 50%;
+    align-items: center;
+    padding-right: 5em;
     & img{
         width: 15em;
         height: 20em;
@@ -252,11 +254,11 @@
 
 .right_side_02{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10em;
     background-color: #EDEDED;
+    align-items: center;
     gap: 4em;
+    justify-content: space-between;
+    padding-left: 10em;
     width: 50%;
     & .sec_01{
         width: 35em;
@@ -278,11 +280,11 @@
         }
         & button{
             font-size: 2em;
-            border: 0.1em solid #000;
-            padding: 0.5em;
             width: 10em;
-            margin-top: 2em;
+            border: 0.1em solid #000;
             border-radius: 0.5em;
+            padding: 0.5em;
+            margin-top: 2em;
         }
     }
     & .sec_02{
@@ -338,11 +340,11 @@
 }
 @media (width < 620px) {
     body .section_02{
-        font-size: 7px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        font-size: 7px;
         align-items: center;
+        justify-content: center;
         & .left_side_02{
             width: 100%;
         }
@@ -374,12 +376,12 @@
 }
 
 .section_03{
-    font-size: 10px;
-    font-family: "Inter", sans-serif;
     display: flex;
+    background-color: #FAFAFA;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
     justify-content: center;
     flex-direction: column;
-    background-color: #FAFAFA;
     gap: 4em;
     padding: 15rem 6rem;
 }
